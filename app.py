@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template
 
-app = Flask(name)
+app = Flask(__name__)
 
 # Aquí continúan tus demás funciones (como @app.route...)
 import re
