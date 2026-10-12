@@ -1,3 +1,8 @@
+from flask import Flask, jsonify, render_template
+
+app = Flask(name)
+
+# Aquí continúan tus demás funciones (como @app.route...)
 import re
 
 @app.route('/api/continuar-viendo')
