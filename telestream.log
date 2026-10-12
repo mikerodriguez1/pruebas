@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/joss/Descargas/TeleStream-LinuxMint-v20/telestream_v13/app.py", line 3, in <module>
+    @app.route('/api/continuar-viendo')
+     ^^^
+NameError: name 'app' is not defined

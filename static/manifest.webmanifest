@@ -1,0 +1,13 @@
+{
+  "name": "TeleStream",
+  "short_name": "TeleStream",
+  "description": "Tu biblioteca de videos en Telegram",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050608",
+  "theme_color": "#050608",
+  "orientation": "any",
+  "icons": [
+    {"src":"/static/icon.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

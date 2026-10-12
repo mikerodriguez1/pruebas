@@ -1,0 +1,53 @@
+<!-- 1. SECCIÓN RECOMENDADO -->
+<div class="category-section">
+    <div class="category-header">
+        <div class="category-title-info">
+            <h2>Recomendado</h2>
+            <span class="subtitle">Destacados para ti</span>
+        </div>
+        <a href="#" class="btn-ver-todos">Ver todos</a>
+    </div>
+    <div class="carousel-container">
+        <button class="scroll-btn left-btn">&#10094;</button>
+        <div class="cards-row" id="recomendado-row">
+            <!-- Aquí van los elementos destacados -->
+        </div>
+        <button class="scroll-btn right-btn">&#10095;</button>
+    </div>
+</div>
+
+<!-- 2. SECCIÓN SERIES (Solo más de 1 episodio) -->
+<div class="category-section">
+    <div class="category-header">
+        <div class="category-title-info">
+            <h2>Series</h2>
+            <span class="subtitle">Contenido con múltiples episodios</span>
+        </div>
+        <a href="#" class="btn-ver-todos">Ver todos</a>
+    </div>
+    <div class="carousel-container">
+        <button class="scroll-btn left-btn">&#10094;</button>
+        <div class="cards-row" id="series-row">
+            <!-- Filtrado automático para mostrar solo series de >1 episodio -->
+        </div>
+        <button class="scroll-btn right-btn">&#10095;</button>
+    </div>
+</div>
+
+<!-- 3. SECCIÓN PELÍCULAS -->
+<div class="category-section">
+    <div class="category-header">
+        <div class="category-title-info">
+            <h2>Películas</h2>
+            <span class="subtitle">Catálogo de películas</span>
+        </div>
+        <a href="#" class="btn-ver-todos">Ver todos</a>
+    </div>
+    <div class="carousel-container">
+        <button class="scroll-btn left-btn">&#10094;</button>
+        <div class="cards-row" id="movies-row">
+            <!-- Películas sueltas como Depredador y FNAF 2 -->
+        </div>
+        <button class="scroll-btn right-btn">&#10095;</button>
+    </div>
+</div>
