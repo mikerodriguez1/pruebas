@@ -1,5 +1,13 @@
 from flask import Flask, jsonify, render_template
 
+app = Flask(name)
+
+@app.route('/')
+def home():
+    return render_template('index.html')
+
+from flask import Flask, jsonify, render_template
+
 app = Flask(__name__)
 
 # Aquí continúan tus demás funciones (como @app.route...)
