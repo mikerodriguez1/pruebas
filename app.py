@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, render_template
 
-app = Flask(name)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
