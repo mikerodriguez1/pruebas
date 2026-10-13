@@ -42,7 +42,3 @@ def detectar_categoria(nombre_serie: str, grupo: str) -> str:
         return SUFIJO_CATEGORIA[m.group(1)]
     return "Series"
 import os
-
-if __ name__ == '__main__':
-    port = int(os.environ.get("PORT", 8787))
-    app.run(host="0.0.0.0", port=port)
